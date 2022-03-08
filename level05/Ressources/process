@@ -14,6 +14,4 @@ donc ca execute tout les scriptes dans /opt/openarenaserveur/ puis les supprime
 on a donc just a mettre un script dans ce dossier:
 getflag > /tmp/result
 chmod 777 /tmp/result
-
 un fois que le script est suprime de /opt/openarenaserveur/ on peut aller verifier notre dossier avec le token
-token level 05 => viuaaale9huek52boumoomioc

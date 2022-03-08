@@ -1,6 +1,5 @@
-on met level02.pcap dan wireshark
+on met level02.pcap dans wireshark
 on trouve les packages avec les chaines login ou password
 dans le tout il y a le mdp decoupe pour faire 
 ft_wandrNDRelL0L
-avec des caracteres speciaux?
-token level03 => kooda2puivaav1idi4f57q8iq
+avec des caracteres speciaux (details dans le fichier mdp)

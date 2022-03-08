@@ -1,0 +1,7 @@
+On remarque ./level03 a des droits rwsr-s, donc les memes droits de group d'execution que flag03 (le s dit execution avec acces de l'utilisateur qui l'a cree)
+level03 appelle la commande echo sans preciser le path absolu
+on a les droit d'ecriture sur /tmp donc on va copier /bin/getflag dans /tmp avec
+cp /bin/getflag /tmp/echo
+puis on renomme en echo, on a donc /tmp/echo, on rajoute /tmp dans le PATH de level 03 au debut avec
+export PATH="/tmp:$PATH"
+pour qu'il soit le premier parcouru

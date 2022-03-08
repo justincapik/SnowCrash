@@ -1,5 +1,0 @@
-chercher tout les ficheirs accessibles par level00
-il y en a deux, /rofs/usr/sbin/john et /sr/sbin/john
-quand on cat ca donne "cdiiddwpgswtgt"
-on teste avec plusieurs clefs et avec un decalage et au final avec un rot15 ca donne "nottohardhere"
-token level00 => x24ti5gi3x0ol2eh4esiuxias
