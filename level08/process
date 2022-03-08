@@ -1,0 +1,6 @@
+En decompilant le code on se rend compte que le seul moyen que le code verfie si on a acces au token est en faisait une compariason du nom ("token")
+on cree donc un lien symbolique avec:
+ln -s token notat0k3n
+flag 08 passwd => quif5eloekouj29ke0vouxean
+execute getflag with "su flag08 -c getflag" and inputting the passwd
+level 08 token => 25749xKZ8L7DkSCwJkT9dyv6f

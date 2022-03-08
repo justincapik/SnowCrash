@@ -1,0 +1,7 @@
+on voit en decompilant le code que level10 utilise la fonction access, ce qui laisse une vulnerabilite de race condition.
+On va donc cree notre petit serveur avec le script du dossier,
+et avec ca deux autre scripts pour et d'un cote switcher le token auquel on a pas access avec un fichier dummy et un autre qui va lancer ./level10 dummy 127.0.0.1 en boucle
+on a plus qu'a regarder cote serveur pour avoir notre token !
+flag10 => woupa2yuojeeaaed06riuj63c
+token level10 => feulo4b72j7edeahuete3no7c 
+

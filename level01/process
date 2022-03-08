@@ -1,0 +1,8 @@
+dans /etc/passwd la ligne de mdp pour flag01 est 
+flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
+on prend du coup ce code qui est une encryption DES et on la met dans un testeur de mot depasses
+$-/usr/sbin/john passwd
+$-/usr/sbin/john --show passwd
+flag01:abcdefg:.......
+abcdef marche pour flag01
+level01 token => f2av5il02puano7naaf6adaaf

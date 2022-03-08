@@ -1,0 +1,18 @@
+on remarque que l'executable level09 incremenete de un chaque charactere d'une string,
+on essai donc de faire l'inverse sur le token donne avec
+./test "$(cat token)"
+avec le code de test:
+#include <stdio.h>
+
+int     main(int argc, char **argv)
+{
+        if (argc != 2)
+                return ;
+        int i;
+        for (i = 0; argv[1][i] != '\0'; ++i)
+                printf("%c", argv[1][i] - i);
+        printf("\n");
+}
+
+ce qui nous donne f3iji1ju5yuevaus41q1afiuq en token pour le compte flag09
+token level09 => s5cAJpM8ev6XHw998pRWG728z

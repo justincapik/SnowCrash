@@ -1,0 +1,4 @@
+on remarque tout de suite qu'il y a un executable level06 avec les droits de flag06 qui appelle le fichier level06.php
+on fait donc une copie de ce level06.php qu'on modifie un peu pour appeller getlfag et le tour est joue !
+token level 06 => wiok45aaoguiboiki2tuin6ub
+on me dit dans l'oreilliette qu'il y a un hack de php pregreplace qui utilise la vulnerabilite /e mais les devs n'ont pas protege conte une faille plus simple

