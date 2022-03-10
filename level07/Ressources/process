@@ -2,4 +2,3 @@ On remarque en ouvrant le code dans gdb que l'executable level07 cree un buffer 
 En trifouilliant un peu avec du desassemblage de cote et autre on se rend compte que le buffer et fait a partir de la variable d'environement LOGNAME ("/bin/echo %s", LOGNAME)
 En faisant un "export LOGNAME="test && getflag"" pour creer la commande "/bin/echo test && getflag"
 en executant maintanat on a les droit qu'on avais pas dans l'environement gdb
-token level 07 => fiumuikeil55xe9cu4dood66h

@@ -1,0 +1,16 @@
+On nous donne un executable et un fichier php appartenant a flag06
+
+en ouvrant le fichier php on remarque qu'un des preg_replace utilise le '/e'
+donc la suite sera vu comme du code php.
+
+le preg_replace utilise le regex suivant:
+preg_replace("/([x (.)])/e", "y("\2")", $a)
+
+le 1er argument est un regex la 1ere partie qui sera prise en compte est [x ] et la 2eme (.)
+
+pour que le '\2' (Back reference) du 2eme parametre s'active nous utilisons la ligne suivante:
+-> [x ${getflag}]
+
+donc nous insereons la ligne precedante dans un fichier qui sera ouvert par l'executable.
+
+./level06 [fichier avec la ligne d'injection] "un argument (pas important)"
